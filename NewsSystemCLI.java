@@ -9,7 +9,8 @@ public class NewsSystemCLI {
         while (true) {
             System.out.println("1. Publică știre");
             System.out.println("2. Recuperează știri");
-            System.out.println("3. Ieșire");
+            System.out.println("3. Sterge stire");
+            System.out.println("4. Ieșire");
 
             System.out.print("Alegeți o opțiune: ");
             int choice = scanner.nextInt();
@@ -33,9 +34,13 @@ public class NewsSystemCLI {
                     newsSystem.retrieveNews(keyword);
                     break;
                 case 3:
+                    System.out.print("Introduceți titlul știrii de șters: ");
+                    String titleToDelete = scanner.nextLine();
+                    newsSystem.deleteNews(titleToDelete);
+                    break;
+                case 4:
                     System.out.println("La revedere!");
                     System.exit(0);
-                    break;
                 default:
                     System.out.println("Opțiune nevalidă. Alegeți din nou.");
             }
