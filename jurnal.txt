@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T14:54:58.338831700Z</date>
+  <millis>1702738498338</millis>
+  <nanos>831700</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Test </message>
+</record>
+<record>
+  <date>2023-12-16T14:55:59.064444400Z</date>
+  <millis>1702738559064</millis>
+  <nanos>444400</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Astazi am creat o stire </message>
+</record>
+<record>
+  <date>2023-12-16T14:57:03.887948200Z</date>
+  <millis>1702738623887</millis>
+  <nanos>948200</nanos>
+  <sequence>2</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: test </message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T14:58:03.401738700Z</date>
+  <millis>1702738683401</millis>
+  <nanos>738700</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TEst </message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T14:59:07.401709200Z</date>
+  <millis>1702738747401</millis>
+  <nanos>709200</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TEst </message>
+</record>
+<record>
+  <date>2023-12-16T14:59:11.992377Z</date>
+  <millis>1702738751992</millis>
+  <nanos>377000</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T15:00:12.192391Z</date>
+  <millis>1702738812192</millis>
+  <nanos>391000</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TEst1 </message>
+</record>
+<record>
+  <date>2023-12-16T15:00:12.205916800Z</date>
+  <millis>1702738812205</millis>
+  <nanos>916800</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Continut  1234</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T15:01:56.208930Z</date>
+  <millis>1702738916208</millis>
+  <nanos>930000</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Test2 Continut  Acesta este testul 2</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-16T15:03:09.252036100Z</date>
+  <millis>1702738989252</millis>
+  <nanos>36100</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Test 3 | Continut :  Acesta este al treilea test!</message>
+</record>
+</log>
