@@ -142,3 +142,123 @@
   <message>Știre publicată: Test 3 | Continut :  Acesta este al treilea test!</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-18T12:27:13.727931600Z</date>
+  <millis>1702902433727</millis>
+  <nanos>931600</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Test | Continut :  1234</message>
+</record>
+<record>
+  <date>2023-12-18T12:28:18.317442800Z</date>
+  <millis>1702902498317</millis>
+  <nanos>442800</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: Test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-18T12:31:26.900771300Z</date>
+  <millis>1702902686900</millis>
+  <nanos>771300</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: MDE | Continut :  Model-driven engineering (MDE)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-18T12:33:14.290003300Z</date>
+  <millis>1702902794290</millis>
+  <nanos>3300</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Test | Continut :  Model-Driven Engineering se referă la utilizarea modelelor ca artefacte principale</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-18T12:33:46.843026900Z</date>
+  <millis>1702902826843</millis>
+  <nanos>26900</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TEst | Continut :  uahjwen duhjeasUFJ heafj haeashjkf eahfjeaj hfhajehj hfksefh akjehg uiencuio srdnuognsri gnasiegn oaienfo nsrgnasrng onaerng aodnfckjanebgj aseojgn snrgjnakn fajklen gkljasrndgjk adnfgkj anegkt nadkfjan djkfn ajkerngk jeabng ea</message>
+</record>
+<record>
+  <date>2023-12-18T12:34:23.930548600Z</date>
+  <millis>1702902863930</millis>
+  <nanos>548600</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: Test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-18T12:47:23.946431600Z</date>
+  <millis>1702903643946</millis>
+  <nanos>431600</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: Titlu de test | Continut :  Acesta este un test </message>
+</record>
+<record>
+  <date>2023-12-18T12:47:58.648078100Z</date>
+  <millis>1702903678648</millis>
+  <nanos>78100</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: test</message>
+</record>
+</log>
