@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class NewsSystemCLI {
 
     public static void main(String[] args) {
+        // Inițializare și lansare noduri P2P
+        P2PNode node = new P2PNode();
+        node.start();
         Scanner scanner = new Scanner(System.in);
         NewsDistributedSystem newsSystem = new NewsDistributedSystem();
 

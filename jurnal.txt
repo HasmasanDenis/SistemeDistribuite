@@ -262,3 +262,63 @@
   <message>Știre ștearsă: test</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-08T04:24:52.097173200Z</date>
+  <millis>1704687892097</millis>
+  <nanos>173200</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TitluTest | Continut :  TEst</message>
+</record>
+<record>
+  <date>2024-01-08T04:25:03.253676300Z</date>
+  <millis>1704687903253</millis>
+  <nanos>676300</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: Titlutest</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-08T04:32:38.484245100Z</date>
+  <millis>1704688358484</millis>
+  <nanos>245100</nanos>
+  <sequence>0</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>publishNews</method>
+  <thread>1</thread>
+  <message>Știre publicată: TEST45 | Continut :  Acesta este un test</message>
+</record>
+<record>
+  <date>2024-01-08T04:32:55.848078800Z</date>
+  <millis>1704688375848</millis>
+  <nanos>78800</nanos>
+  <sequence>1</sequence>
+  <logger>NewsDistributedSystem</logger>
+  <level>INFO</level>
+  <class>NewsDistributedSystem</class>
+  <method>deleteNews</method>
+  <thread>1</thread>
+  <message>Știre ștearsă: test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
