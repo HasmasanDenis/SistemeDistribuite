@@ -9,6 +9,10 @@ public class NewsSystemCLI {
         Scanner scanner = new Scanner(System.in);
         NewsDistributedSystem newsSystem = new NewsDistributedSystem();
 
+        P2PServer server = new P2PServer(3036);
+        server.run();
+
+
         while (true) {
             System.out.println("1. Publică știre");
             System.out.println("2. Recuperează știri");
@@ -50,3 +54,7 @@ public class NewsSystemCLI {
         }
     }
 }
+
+
+
+

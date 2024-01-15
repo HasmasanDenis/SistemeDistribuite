@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +20,14 @@ public class NewsDistributedSystem {
     public void publishNews(String title, String content) {
         newsDatabase.put(title, content);
         LOGGER.log(Level.INFO, "Știre publicată: " + title + "| Continut : " + content);
+    }
 
+    public void publishMultipleNews(int numberOfNews) {
+        for (int i = 1; i <= numberOfNews; i++) {
+            String title = "Știre " + i;
+            String content = "Conținutul știrii " + i;
+            publishNews(title, content);
+        }
     }
 
     public void deleteNews(String title) {
@@ -44,5 +52,12 @@ public class NewsDistributedSystem {
                 System.out.println("----------------------");
             }
         }
+    }
+
+    public static void main(String[] args) {
+        NewsDistributedSystem newsSystem = new NewsDistributedSystem();
+        newsSystem.publishMultipleNews(1000);
+
+        // Poți adăuga aici apeluri suplimentare pentru a testa funcționalitățile
     }
 }
